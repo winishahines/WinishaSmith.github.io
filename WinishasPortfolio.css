@@ -1,14 +1,19 @@
-
+/* I think you're off to a great start */
+/* To me your code looks clean and concise */
+/* It's so good, I don't have anything to critique or correct! */
 
 header {
   display: inline-block;
 }
 
+/* I think fonts add a lot of personality to a site, I like how you grabbed a unique one */
 header h1 {
   font-family: 'Robo', sans-serif;
   text-align: left;
 }
 
+/* I'm guessing this is something you haven't finished yet */
+/* Although, if you aren't going to be doing anything else with your nav bar, you could probably get rid of lines 17 & 18 */
 header nav {
 }
 

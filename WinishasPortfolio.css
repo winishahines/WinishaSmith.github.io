@@ -7,6 +7,7 @@ header {
 header h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5em;
+  /* I'd recommend using px */
   text-align:inherit;
   margin-left: 80px;
   line-height: 80px;
@@ -43,3 +44,4 @@ h1, nav {
 body {
   margin: 0;
 }
+/* It doesn't take much CSS to start a great-looking site! */

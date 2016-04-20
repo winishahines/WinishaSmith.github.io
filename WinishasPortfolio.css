@@ -23,15 +23,23 @@ header {
 
 .greeting p {
   font-size: 18px;
+  padding: 25px 0 18px;
+  width: 75%;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .btn{
-  font-size: 16px;
   color: #FFF;
   background: #A63A50;
   text-decoration: none;
   padding: 18px 26px;
-  /*border-radius: 3px;*/
+  border-radius: 3px;
   margin-right: 10px;
   display: inline-block;
+}
+
+.social i {
+  font-size: 30px;
 }

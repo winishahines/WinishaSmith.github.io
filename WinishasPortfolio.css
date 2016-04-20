@@ -6,3 +6,22 @@
 .navbar-brand{
   font-family: 'Pacifico', cursive;
 }
+
+.hero-unit{
+  padding: 115px 0 200px;
+}
+
+.container{
+  text-align: center;
+}
+
+.btn{
+  font-size: 16px;
+  color: #FFF;
+  background: #A63A50;
+  text-decoration: none;
+  padding: 18px 26px;
+  /*border-radius: 3px;*/
+  margin-right: 10px;
+  display: inline-block;
+}

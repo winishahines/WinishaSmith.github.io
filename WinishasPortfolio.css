@@ -7,12 +7,22 @@
   font-family: 'Pacifico', cursive;
 }
 
-.hero-unit{
+header {
   padding: 115px 0 200px;
+  background: #E2DCDE;
+  height: 500px;
 }
 
 .container{
   text-align: center;
+}
+
+.greeting h1 {
+  font-size: 40px;
+}
+
+.greeting p {
+  font-size: 18px;
 }
 
 .btn{

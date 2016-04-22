@@ -1,16 +1,18 @@
-.nav{
+.navbar-nav{
   font-family: 'Muli', sans-serif;
   font-size: 15px;
+  margin-left: 220px;
 }
 
 .navbar-brand{
   font-family: 'Pacifico', cursive;
+  font-size: 20px;
 }
 
 header {
   padding: 115px 0 200px;
   background: #E2DCDE;
-  height: 500px;
+  height: 600px;
 }
 
 .container{
@@ -42,4 +44,14 @@ header {
 
 .social i {
   font-size: 30px;
+}
+
+section {
+padding: 50px 0;
+height: 500px;
+background: gray;
+}
+
+section .profile{
+  text-align: right;
 }

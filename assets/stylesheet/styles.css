@@ -1,3 +1,4 @@
+/* Navigation Styling */
 .wrapper{
   margin: 0;
   padding: 0px 40px;
@@ -54,12 +55,10 @@ ul li{
     font-size: 20px;
     margin: 0 5px;
 }
+/* End of Navigation Styling */
 
 
-
-
-
-
+/* Home Page */
 .container{
   text-align: center;
 }
@@ -76,27 +75,16 @@ ul li{
   margin-bottom: 20px;
   text-align: center;
 }
+/* End of Home Page */
 
-.btn{
-  color: #FFF;
-  background: #A63A50;
-  text-decoration: none;
-  padding: 18px 26px;
-  border-radius: 3px;
-  margin-right: 10px;
-  display: inline-block;
-}
 
-.social i {
-  font-size: 30px;
-}
+/* About Page */
+/* End of About Page */
 
-section {
-padding: 50px 0;
-height: 500px;
-background: gray;
-}
 
-section .profile{
-  text-align: right;
-}
+/* Portfolio Page */
+/* End of Portfolio Page */
+
+
+/* Contact Page */
+/* End of Contact Page */

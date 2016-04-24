@@ -20,18 +20,20 @@
 </head>
 
 <body data-ng-app="portfolio">
+
+  <!-- Navigation -->
   <div class="wrapper">
     <header>
       <div id="logo-holder">
-        <a id="logo" href="#"> Winisha Smith </a>
+        <a id="logo" data-ui-sref="index"> Winisha Smith </a>
       </div>
       <div id="nav-wrapper">
         <ul id="nav">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
+          <li><a data-ui-sref="index">Home</a></li>
+          <li><a data-ui-sref="about">About</a></li>
+          <li><a data-ui-sref="projects">Projects</a></li>
           <li><a href="resume/Winisha_Smith_Resume.pdf" target="_blank">Resume</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a data-ui-sref="contact">Contact</a></li>
         </ul>
       </div>
       <div id="social-holder">
@@ -44,14 +46,8 @@
     </header>
   </div>
 
+<!-- End of Navigation -->
+
   <div data-ui-view></div>
-  <header>
-    <div class="container">
-      <div class="greeting">
-        <h1>Hi! My Name is Winisha Smith.</h1>
-        <p>I’m a full stack web developer and creative problem solver who values effective communication and collaboration between teams to achieve shared success. I apply an optimistic approach to challenging situations and thrive in environments that are customer-centric and committed to the greater good.</p>
-      </div>
-    </div>
-  </header>
 
 </body>

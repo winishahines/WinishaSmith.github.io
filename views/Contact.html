@@ -1,1 +1,29 @@
-<h2>This is the contact page</h2>
+<div class="contact-page">
+  <h2>This is the contact page</h2>
+
+  <div class="contact-container">
+    <form name="contactForm" validation>
+      <div data-ng-hide="formError()"></div>
+      <!-- contact name -->
+      <div class="row">
+        <input type="text" name="name" data-ng-model="contactData.name" placeholder="Full Name" data-ng-minlength="5" required />
+      </div>
+
+      <!-- contact email -->
+      <div class="row">
+        <input type="text" name="email" data-ng-model="contactData.email" placeholder="name@email.com" data-ng-minlength="5" required />
+      </div>
+
+      <!-- contact message -->
+      <div class="row">
+        <textarea data-ng-model="contactData.message" rows="8" id="message" name="message" placeholder="Enter your message"></textarea>
+      </div>
+      
+      <!-- submit -->
+      <div class="row">
+        <input type="submit" data-ng-disabled="submitButtonDisabled" data-ng-click="submitContactForm()" />
+      </div>
+
+    </form>
+  </div>
+</div>

@@ -87,4 +87,9 @@ ul li{
 
 
 /* Contact Page */
+
+.contact-page form {
+  margin-left: 40px;
+}
+
 /* End of Contact Page */

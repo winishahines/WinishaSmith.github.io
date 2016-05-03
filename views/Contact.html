@@ -1,9 +1,13 @@
 <div class="contact-page">
   <h2>This is the contact page</h2>
 
-  <div class="contact-container">
+  <div class="contact-container" data-ng-controller="contactController">
     <form name="contactForm" validation>
-      <div data-ng-hide="formError()"></div>
+
+      <div data-ng-hide="formError()">
+        {{errorMessage}}
+      </div>
+
       <!-- contact name -->
       <div class="row">
         <input type="text" name="name" data-ng-model="contactData.name" placeholder="Full Name" data-ng-minlength="5" required />
@@ -16,14 +20,15 @@
 
       <!-- contact message -->
       <div class="row">
-        <textarea data-ng-model="contactData.message" rows="8" id="message" name="message" placeholder="Enter your message"></textarea>
+        <textarea data-ng-model="contactData.message" rows="6" id="message" name="message" placeholder="Enter your message"></textarea>
       </div>
-      
+
       <!-- submit -->
       <div class="row">
-        <input type="submit" data-ng-disabled="submitButtonDisabled" data-ng-click="submitContactForm()" />
+        <input type="button" class="btn btn-default" data-ng-disabled="submitButtonDisabled" data-ng-click="submitContactForm()" value="Send"/>
       </div>
 
     </form>
   </div>
+
 </div>

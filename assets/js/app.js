@@ -2,9 +2,7 @@
 
 (function(){
   angular
-  .module("portfolio", [
-    "ui.router"
-  ])
+  .module("portfolio", ["ui.router"])
   .config([
     "$stateProvider",
     routerFunction
@@ -29,5 +27,6 @@
       templateUrl: "views/contact.html"
     });
   }
+
 
 })();

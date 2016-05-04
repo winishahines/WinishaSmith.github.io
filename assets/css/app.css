@@ -1,0 +1,106 @@
+/* Navigation Styling */
+.wrapper{
+  margin: 0;
+  padding: 0px 40px;
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+}
+
+header{
+  height: 100px;
+}
+
+#logo-holder{
+  position: absolute;
+  top: 28px;
+  left: 48px;
+}
+
+#logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+
+#nav-wrapper{
+  text-align: center;
+}
+
+#nav{
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  padding: 34px 0;
+  display: inline-block;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+  line-height: 2.0em;
+}
+
+#nav li{
+  padding: 0px 22px;
+}
+
+#social-holder{
+    position: absolute;
+    top: 0;
+    right: 48px;
+      padding: 36px 15px;
+}
+
+#social-holder a {
+    font-size: 20px;
+    margin: 0 5px;
+}
+/* End of Navigation Styling */
+
+
+/* Home Page */
+.container{
+  text-align: center;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.greeting h1 {
+  font-size: 40px;
+}
+
+.greeting p {
+  font-size: 18px;
+  padding: 25px 0 18px;
+  width: 75%;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* End of Home Page */
+
+
+/* About Page */
+.about-header{
+  text-align: center;
+}
+.brand{
+  margin: 10px 50px 10px 200px;
+  text-align:center;
+  font-size: 16px;
+}
+/* End of About Page */
+
+
+/* Portfolio Page */
+/* End of Portfolio Page */
+
+
+/* Contact Page */
+
+.contact-page form {
+  margin-left: 40px;
+}
+
+/* End of Contact Page */

@@ -1,4 +1,6 @@
-/* Navigation Styling */
+/****************
+NAVIGATION
+*******************/
 .wrapper{
   margin: 0;
   padding: 0px 40px;
@@ -55,10 +57,14 @@ ul li{
     font-size: 20px;
     margin: 0 5px;
 }
-/* End of Navigation Styling */
+/****************
+END OF NAVIGATION
+*******************/
 
 
-/* Home Page */
+/****************
+HOME
+*******************/
 .container{
   text-align: center;
 }
@@ -78,10 +84,14 @@ h1 {
   margin-bottom: 20px;
   text-align: center;
 }
-/* End of Home Page */
+/****************
+END OF HOME
+*******************/
 
 
-/* About Page */
+/****************
+ABOUT
+*******************/
 .about-header{
   text-align: center;
 }
@@ -90,17 +100,16 @@ h1 {
   text-align:center;
   font-size: 16px;
 }
-/* End of About Page */
+/****************
+END OF ABOUT
+*******************/
 
 
-/* Portfolio Page */
-/* End of Portfolio Page */
+/****************
+PROJECTS
+*******************/
 
 
-/* Contact Page */
-
-.contact-page form {
-  margin-left: 40px;
-}
-
-/* End of Contact Page */
+/****************
+END OF PROJECTS
+*******************/

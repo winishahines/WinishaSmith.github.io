@@ -1,59 +1,31 @@
 /* Navigation Styling */
-.wrapper{
-  margin: 0;
-  padding: 0px 40px;
-  border-bottom: 1px solid #e3e3e3;
-  width: 100%;
-}
 
-header{
-  height: 100px;
-}
-
-#logo-holder{
-  position: absolute;
-  top: 28px;
-  left: 48px;
-}
-
-#logo{
+.navbar-brand{
   font-family: 'Pacifico', cursive;
   font-size: 26px;
   text-decoration: none;
 }
 
-
-#nav-wrapper{
-  text-align: center;
+.navbar{
+  margin: 0;
+  padding: 0px -5px;
+  border-bottom: 1px solid #e3e3e3;
 }
+
+.navbar-toggle{
+  border: 1px solid gray;
+}
+.icon-bar{
+  background-color: gray;
+}
+
+
 
 #nav{
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   padding: 34px 0;
   display: inline-block;
-}
-
-ul li{
-  list-style: none;
-  display: inline;
-  line-height: 2.0em;
-}
-
-#nav li{
-  padding: 0px 22px;
-}
-
-#social-holder{
-    position: absolute;
-    top: 0;
-    right: 48px;
-      padding: 36px 15px;
-}
-
-#social-holder a {
-    font-size: 20px;
-    margin: 0 5px;
 }
 /* End of Navigation Styling */
 
@@ -99,8 +71,16 @@ h1 {
 
 /* Contact Page */
 
-.contact-page form {
-  margin-left: 40px;
+#social-holder{
+    position: absolute;
+    top: 0;
+    right: 48px;
+      padding: 36px 15px;
+}
+
+#social-holder a {
+    font-size: 20px;
+    margin: 0 5px;
 }
 
 /* End of Contact Page */

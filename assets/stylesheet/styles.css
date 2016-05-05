@@ -31,9 +31,11 @@
 
 
 /* Home Page */
-.container{
-  text-align: center;
+.home-photo{
+  margin: 120px 10px 0px 10px;
 }
+
+
 h1 {
   font-family: 'Pacifico', cursive;
 }

@@ -5,19 +5,21 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Winisha Smith | Web Developer</title>
+
   <!-- GOOGLE FONTS -->
   <link href='https://fonts.googleapis.com/css?family=Pacifico|Great+Vibes' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+
   <!-- FONT AWESOME CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
   <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css">
 </head>
 
 <body>
   <!-- NAVIGATION -->
-  <div class="wrapper">
+  <!-- <div class="wrapper">
     <header>
       <div id="logo-holder">
         <a id="logo" href="#index"> Winisha Smith </a>
@@ -39,14 +41,39 @@
         </span>
       </div>
     </header>
+  </div> -->
+
+
+
+  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+  <div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Winisha Smith</li>
+        <li><a href="#index">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="resume/Winisha_Smith_Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
   </div>
 
   <!-- END OF NAVIGATION -->
 
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
+  <!-- FOUNDATION SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/plugins/foundation.responsiveToggle.js"></script>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/plugins/foundation.core.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/plugins/foundation.util.mediaQuery.js"></script>
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/vendor/what-input.js"></script>
+  <script src="assets/js/vendor/foundation.js"></script>
   <script src="js/app.js"></script>
+
+
 </body>
 
 </html>

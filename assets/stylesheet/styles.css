@@ -1,6 +1,8 @@
 /***************** General Styling **************/
 html, body{
-  height: 100%
+  height: 100%;
+  font-family: 'Muli', sans-serif;
+
 }
 
 /***************** End of General Styling **************/
@@ -95,19 +97,20 @@ h1 {
 /***************** Contact Section **************/
 
 #contact{
-  background: purple;
+  height: 5%;
 }
 
-#social-holder{
-    position: absolute;
-    top: 0;
-    right: 48px;
-      padding: 36px 15px;
+
+i.fa {
+    font-size: 37px;
+    margin: 5px 20px;
 }
 
-#social-holder a {
-    font-size: 20px;
-    margin: 0 5px;
+.footer {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /***************** End of Contact Section **************/

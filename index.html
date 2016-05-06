@@ -42,8 +42,9 @@
 
      <div class="collapse navbar-collapse" id="menu">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="resume/Winisha_Smith_Resume.pdf" target="_blank">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -52,9 +53,9 @@
  </nav>
  <!-- End of Navigation -->
 
- <div class="section" id="introduction"></div>
- <div class="section" id="about"></div>
+ <div class="section" id="home"></div>
  <div class="section" id="projects"></div>
+ <div class="section" id="about"></div>
  <div class="section" id="contact"></div>
 
  <!-- Social Media Icons -->
@@ -71,7 +72,27 @@
    </span>
  </div> -->
 
-  <!-- End of Social Media Icons -->
+ <!-- End of Social Media Icons -->
+
+ <!-- Nav scroll -->
+ <script>
+ $(document).ready(function(){
+   $('nav li a').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+     && location.hostname == this.hostname) {
+       var $target = $(this.hash);
+       $target = $target.length && $target
+       || $('[name=' + this.hash.slice(1) +']');
+       if ($target.length) {
+         var targetOffset = $target.offset().top;
+         $('html,body')
+         .animate({scrollTop: targetOffset}, 2000);
+         return false;
+       }
+     }
+   });
+ });
+ </script>
 
 </body>
 

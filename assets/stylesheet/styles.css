@@ -72,7 +72,8 @@ html, body{
 
 /***************** Projects Section **************/
 #projects{
-  background: blue;
+  background: #ebebeb;
+  padding-top: 60px;
 }
 
 /***************** End of Projects Section **************/

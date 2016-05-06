@@ -14,12 +14,13 @@ html, body{
   font-size: 26px;
   text-decoration: none;
   color: white;
+  margin-left: 10px;
 }
 
 .navbar{
   margin: 0;
   padding: 0px -5px;
-  background-color: rgba(1, 125, 125, 0.6);
+  background-color: rgba(57, 168, 174, 0.7);
 }
 
 .navbar-toggle{
@@ -32,7 +33,7 @@ html, body{
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .nav li a{
@@ -52,24 +53,6 @@ html, body{
   background-repeat: no-repeat;
   background-position:left;
 }
-
-/*
-h1 {
-  font-family: 'Pacifico', cursive;
-}
-
-.greeting h1 {
-  font-size: 40px;
-}
-
-.greeting p {
-  font-size: 18px;
-  padding: 25px 0 18px;
-  width: 75%;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  text-align: center;
-}*/
 
 /***************** End of Header Styling **************/
 
@@ -102,15 +85,16 @@ h1 {
 
 
 i.fa {
-    font-size: 37px;
-    margin: 5px 20px;
+  font-size: 36px;
+  margin: 5px 18px;
+  color: rgb(57, 168, 174);
 }
 
 .footer {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /***************** End of Contact Section **************/

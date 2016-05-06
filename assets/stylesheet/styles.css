@@ -1,14 +1,23 @@
-/* Navigation Styling */
+/***************** General Styling **************/
+html, body{
+  height: 100%
+}
+
+/***************** End of General Styling **************/
+
+/***************** Navigation Styling **************/
 
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   font-size: 26px;
   text-decoration: none;
+  color: white;
 }
 
 .navbar{
   margin: 0;
   padding: 0px -5px;
+  background-color: rgba(1, 125, 125, 0.6);
   border-bottom: 1px solid #e3e3e3;
 }
 
@@ -18,24 +27,32 @@
 .icon-bar{
   background-color: gray;
 }
-
-
-
-#nav{
+.nav {
   font-family: 'Muli', sans-serif;
   font-size: 15px;
-  padding: 34px 0;
   display: inline-block;
-}
-/* End of Navigation Styling */
-
-
-/* Home Page */
-.home-photo{
-  margin: 120px 10px 0px 10px;
+  margin-right: 20px;
 }
 
+.nav li a{
+  color: white;
+}
+/***************** End of Navigation Styling **************/
 
+/***************** Header Styling **************/
+.section{
+  height: 100%;
+}
+
+
+#introduction{
+  background-image: url(../img/winnie_colorized.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:left;
+}
+
+/*
 h1 {
   font-family: 'Pacifico', cursive;
 }
@@ -51,27 +68,36 @@ h1 {
   margin-left: 120px;
   margin-bottom: 20px;
   text-align: center;
-}
-/* End of Home Page */
+}*/
+
+/***************** End of Header Styling **************/
 
 
-/* About Page */
-.about-header{
-  text-align: center;
+
+/***************** About Section **************/
+#about{
+  background: gray;
 }
 .brand{
   margin: 10px 50px 10px 200px;
   text-align:center;
   font-size: 16px;
 }
-/* End of About Page */
+/***************** End of About Section **************/
 
 
-/* Portfolio Page */
-/* End of Portfolio Page */
+/***************** Projects Section **************/
+#projects{
+  background: blue;
+}
 
+/***************** End of Projects Section **************/
 
-/* Contact Page */
+/***************** Contact Section **************/
+
+#contact{
+  background: purple;
+}
 
 #social-holder{
     position: absolute;
@@ -85,4 +111,4 @@ h1 {
     margin: 0 5px;
 }
 
-/* End of Contact Page */
+/***************** End of Contact Section **************/

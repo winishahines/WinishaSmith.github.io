@@ -76,15 +76,22 @@ html, body{
   padding-top: 60px;
 }
 
+.container {
+  padding: 0 30px;
+  text-align: center;
+  width: 100%;
+}
+
+
 .skills li {
-    color: #FFF;
-    text-shadow: 0 1px 0 rgba(0,0,0,.10);
-    line-height: 32px;
-    display: inline;
-    border-radius: 4px;
-    font-size: 12px;
-    background: #f2414e;
-    padding: 4px 9px;
+  color: #FFF;
+  text-shadow: 0 1px 0 rgba(0,0,0,.10);
+  line-height: 32px;
+  display: inline;
+  border-radius: 4px;
+  font-size: 12px;
+  background: #f2414e;
+  padding: 4px 9px;
 }
 
 /***************** End of Projects Section **************/

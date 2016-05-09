@@ -85,12 +85,27 @@ hr {
 
 /***************** About Section **************/
 #about{
-  background: gray;
+  padding-top: 60px;
+  background: #e1e1e1;
 }
 .brand{
   margin: 10px 50px 10px 200px;
   text-align:center;
   font-size: 16px;
+}
+
+#about h1{
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#about p{
+  font-size: 15px;
+}
+
+.about-photo{
+  text-align: center;
 }
 /***************** End of About Section **************/
 

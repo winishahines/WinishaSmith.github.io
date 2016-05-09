@@ -48,10 +48,34 @@ html, body{
 
 
 #home{
-  background-image: url(../img/winnie_colorized.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position:left;
+  height: 100%;
+  margin-top: -20px;
+  background-image: url(../img/desktop.jpg);
+  background-size:cover;
+}
+
+.name h1{
+  padding-top: 8.5em;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #39a8ae;
+  margin-bottom: -5px;
+
+}
+
+hr {
+  max-width: 150px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.name p {
+  font-size: 18px;
+  text-align: center;
+  color: #39a8ae;
+  margin-top: -5px;
+
 }
 
 /***************** End of Header Styling **************/
@@ -72,7 +96,8 @@ html, body{
 
 /***************** Projects Section **************/
 #projects{
-  background: #ebebeb;
+  background: purple;
+  /*background: #ebebeb;*/
   padding-top: 60px;
 }
 
@@ -93,6 +118,7 @@ html, body{
   background: #f2414e;
   padding: 4px 9px;
 }
+
 
 /***************** End of Projects Section **************/
 

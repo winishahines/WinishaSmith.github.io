@@ -52,6 +52,7 @@ html, body{
   margin-top: -20px;
   background-image: url(../img/desktop.jpg);
   background-size:cover;
+  background-attachment: fixed;
 }
 
 .name h1{
@@ -96,17 +97,22 @@ hr {
 
 /***************** Projects Section **************/
 #projects{
-  background: #e1e1e1;
-  /*background: #ebebeb;*/
   padding-top: 60px;
+  height: 185%;
 }
 
 .container {
   padding: 0 30px;
-  text-align: center;
   width: 100%;
+  text-align: justify;
 }
 
+
+h3 a {
+    font-size: 38px;
+    font-weight: 800;
+    color: black;
+}
 
 .skills li {
   color: #FFF;
@@ -115,7 +121,7 @@ hr {
   display: inline;
   border-radius: 4px;
   font-size: 12px;
-  background: #f2414e;
+  background: #39a8ae;
   padding: 4px 9px;
 }
 

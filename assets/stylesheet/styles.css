@@ -96,7 +96,7 @@ hr {
 
 /***************** Projects Section **************/
 #projects{
-  background: purple;
+  background: #e1e1e1;
   /*background: #ebebeb;*/
   padding-top: 60px;
 }
@@ -125,21 +125,23 @@ hr {
 /***************** Contact Section **************/
 
 #contact{
-  height: 5%;
+  height: 18%;
+  background: #39a8ae;
+  padding-top: 40px;
 }
 
 
 i.fa {
   font-size: 36px;
   margin: 5px 18px;
-  color: rgb(57, 168, 174);
+  color: white;
 }
 
 .footer {
   font-size: 16px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  color: white;
+  background: #39a8ae;
 }
 
 /***************** End of Contact Section **************/

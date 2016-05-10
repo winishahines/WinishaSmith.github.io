@@ -2,44 +2,47 @@
 html, body{
   height: 100%;
   font-family: 'Muli', sans-serif;
-
 }
-
 /***************** End of General Styling **************/
 
-/***************** Navigation Styling **************/
 
+/***************** Navigation Styling **************/
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   font-size: 26px;
-  text-decoration: none;
   color: white;
-  margin-left: 10px;
+  padding-left: 40px;
+}
+
+.navbar-brand:hover{
+  color: white;
 }
 
 .navbar{
-  margin: 0;
-  padding: 0px -5px;
   background-color: rgba(57, 168, 174, 0.7);
 }
 
 .navbar-toggle{
-  border: 1px solid gray;
+  border: 2px solid white;
 }
+
 .icon-bar{
-  background-color: gray;
+  background-color: white;
 }
-.nav {
+
+.nav{
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .nav li a{
   color: white;
 }
+
 /***************** End of Navigation Styling **************/
+
 
 /***************** Header Styling **************/
 .section{

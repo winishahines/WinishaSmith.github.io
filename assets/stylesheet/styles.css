@@ -1,8 +1,14 @@
 /***************** General Styling **************/
 html, body{
   height: 100%;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /***************** End of General Styling **************/
 
 
@@ -68,7 +74,7 @@ html, body{
 
 }
 
-hr {
+hr{
   max-width: 150px;
   border-color: black;
   border-width: 2px;
@@ -84,6 +90,47 @@ hr {
 
 /***************** End of Header Styling **************/
 
+
+/***************** Projects Section **************/
+#projects{
+  padding-top: 60px;
+  height:auto;
+}
+
+.proj-screenshot img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+
+.proj-description{
+  padding-top: 30px;
+}
+
+.proj-description ul.tools li {
+  color: #FFF;
+  text-shadow: 0 1px 0 rgba(0,0,0,.10);
+  line-height: 32px;
+  display: inline;
+  border-radius: 4px;
+  font-size: 12px;
+  background: #39a8ae;
+  padding: 4px 9px;
+}
+
+.proj-description p.description{
+  text-align: justify;
+  color: gray;
+  width: 88%
+}
+
+/***************** End of Projects Section **************/
 
 
 /***************** About Section **************/
@@ -112,39 +159,6 @@ hr {
 }
 /***************** End of About Section **************/
 
-
-/***************** Projects Section **************/
-#projects{
-  padding-top: 60px;
-  height: 185%;
-}
-
-.container {
-  padding: 0 30px;
-  width: 100%;
-  text-align: justify;
-}
-
-
-h3 a {
-    font-size: 38px;
-    font-weight: 800;
-    color: black;
-}
-
-.skills li {
-  color: #FFF;
-  text-shadow: 0 1px 0 rgba(0,0,0,.10);
-  line-height: 32px;
-  display: inline;
-  border-radius: 4px;
-  font-size: 12px;
-  background: #39a8ae;
-  padding: 4px 9px;
-}
-
-
-/***************** End of Projects Section **************/
 
 /***************** Contact Section **************/
 

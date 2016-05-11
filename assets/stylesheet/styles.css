@@ -59,7 +59,7 @@ html, body{
 #home{
   height: 100%;
   margin-top: -20px;
-  background-image: url(../img/desktop.jpg);
+  background-image: url(../img/desktop.png);
   background-size:cover;
   background-attachment: fixed;
 }

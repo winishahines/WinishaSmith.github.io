@@ -25,7 +25,7 @@ html, body{
 }
 
 .navbar{
-  background-color: rgba(57, 168, 174, 0.7);
+  background-color: rgba(145, 176, 1247, 0.7);
 }
 
 .navbar-toggle{
@@ -69,7 +69,7 @@ html, body{
   font-family: 'Pacifico', cursive;
   font-size: 40px;
   text-align: center;
-  color: #39a8ae;
+  color: #91b0f7;
   margin-bottom: -5px;
 
 }
@@ -86,7 +86,7 @@ border: none;
 .name p {
   font-size: 18px;
   text-align: center;
-  color: #39a8ae;
+  color: black;
   margin-top: -5px;
 
 }
@@ -123,7 +123,7 @@ h1{
   display: inline;
   border-radius: 4px;
   font-size: 12px;
-  background: #39a8ae;
+  background: #91b0f7;
   padding: 4px 9px;
 }
 
@@ -216,8 +216,8 @@ h1{
 /***************** Contact Section **************/
 
 #contact{
-  height: 18%;
-  background: #39a8ae;
+  height: auto;
+  background: #91b0f7;
   padding-top: 40px;
 }
 
@@ -232,7 +232,8 @@ i.fa {
   font-size: 16px;
   text-align: center;
   color: white;
-  background: #39a8ae;
+  background: #91b0f7;
+  padding-bottom: 20px;
 }
 
 /***************** End of Contact Section **************/

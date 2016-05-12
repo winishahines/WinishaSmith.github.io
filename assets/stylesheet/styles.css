@@ -107,7 +107,7 @@ border: none;
   height: auto;
 }
 
-h1{
+.proj-description h1{
   font-family: 'Roboto', sans-serif;
   font-size: 38px;
   font-weight: 800;
@@ -192,6 +192,7 @@ h1{
 #about{
   padding-top: 60px;
   background: #e1e1e1;
+  height: auto;
 }
 .brand{
   margin: 10px 50px 10px 200px;
@@ -202,15 +203,24 @@ h1{
 #about h1{
   font-size: 38px;
   font-weight: 800;
-  text-align: center;
 }
 
 #about p{
   font-size: 15px;
+  padding-bottom: 20px;
+
 }
 
-.about-photo{
-  text-align: center;
+.about-photo img {
+  max-width: 100%;
+  height: auto;
+  padding: 0px 0px 30px 170px;
+}
+
+.about-text p{
+  padding-top: 5px;
+  text-align:justify;
+  width: 88%
 }
 /***************** End of About Section **************/
 
